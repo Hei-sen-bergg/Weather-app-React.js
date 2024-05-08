@@ -76,6 +76,7 @@ function Home() {
   };
 
   return (
+    <>
     <div className="container">
       <div className="weather">
         <div className="search">
@@ -123,7 +124,9 @@ function Home() {
         </div>
       </div>
     </div>
-  );
+    </>
+    );
 }
+
 
 export default Home;
